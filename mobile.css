@@ -1,0 +1,190 @@
+@media (max-width: 1000px) {
+    #header {
+        height: 100vh;
+    }
+
+    #header1 {
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #logo {
+        font-size: 25px;
+        margin-right: 35px;
+    }
+
+    #signup {
+        position: relative;
+        right: -45px;
+    }
+
+    #language {
+        width: 10vw;
+        /* margin-right: -35px; */
+    }
+
+    button {
+
+        width: 25vw;
+    }
+
+    #header2 {
+
+        /* justify-content: baseline; */
+        /* align-items: baseline; */
+        text-align: center;
+    }
+
+    .text1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .text2 {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .text3 {
+        font-size: 25px;
+    }
+
+    .text4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ipt {
+        width: 80vw;
+    }
+
+    .text4 button {
+        width: 40vw;
+        height: 5.6vh;
+        margin-top: 12px;
+        font-size: 15px;
+
+    }
+
+    /* for tv */
+
+    .tv {
+        flex-direction: column;
+    }
+
+    .txt {
+
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .txt1 {
+        font-size: 30px;
+    }
+
+    .txt2 {
+        font-size: 20px;
+    }
+
+    .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .ad-logo {
+        height: 28vh;
+    }
+
+    .tv2 {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .txts {
+        width: 100%;
+        margin: 0;
+        padding: 0px 12px;
+    }
+
+
+
+    /* freqently asked question */
+    #freq-ques {
+        padding: 42px 0px;
+        justify-content: flex-start;
+
+    }
+
+    #freq-head {
+
+        font-size: 40px;
+        text-align: center;
+    }
+
+    details {
+        font-size: 15px;
+    }
+
+    details[open] {
+        height: 50vh;
+    }
+
+    details[open] {
+        height: 50vh;
+    }
+
+    .freq-txt {
+        text-align: center;
+        padding: 0px 20px;
+        bottom: -500px;
+    }
+
+    .subs {
+        bottom: -530px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub {
+        width: 60vw;
+    }
+
+    .gt {
+        margin-top: 20px;
+        width: 30vw;
+        height: 6vh;
+    }
+
+    /* footer */
+
+    #footer {
+        padding: 0px 20px;
+        height: 90vh;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    #footer1{
+        height: 20vh;
+    }
+   h4{
+    display: none;
+   }
+   h5{
+    margin-top: 30px;
+    display: block;
+   }
+}
